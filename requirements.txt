@@ -1,0 +1,12 @@
+crewai
+langchain
+openai
+anthropic
+mcp-use
+python-dotenv
+google-api-python-client
+atlassian-python-api
+PyGithub
+playwright
+fastapi
+uvicorn

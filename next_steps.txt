@@ -1,0 +1,26 @@
+use:
+crewai with mcp
+mcp_use 
+
+look for that. 
+make first agent making an HL documnet and upload to google drive
+make the second that get it and upload to jira
+make the third that will get from jira and make the code.
+
+after it: 
+make the crew. run it. check it is okay.
+
+after it:
+make an mcp server that will run the crew.
+the curretn directory will be the mcp server.
+clients can use this as a mcp server from different directories.
+
+after it:
+make mcp client in different directory that use this mcp server.
+make an idea. send to the mcp. get the code.
+
+after it:
+add the tests
+add deployment.
+
+

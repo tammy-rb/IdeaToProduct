@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "jira": {
+      "command": "npx",
+      "args": [
+        "@timbreeding/jira-mcp-server@latest",
+        "--jira-base-url=YOUR_JIRA_URL",
+        "--jira-username=YOUR_EMAIL",
+        "--jira-api-token=YOUR_JIRA_API_TOKEN"
+      ],
+      "env": {
+        "DEBUG": "true",
+        "LOG_FILE_PATH": ""
+      }
+    },
+    "gdrive": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-gdrive"],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "PATH_TO_YOUR_CREDENTIALS_FILE"
+      }
+    }
+  }
+}
