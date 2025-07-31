@@ -1,8 +1,9 @@
 crewai
+crewai-tools[mcp]
 langchain
 openai
 anthropic
-mcp-use
+mcp
 python-dotenv
 google-api-python-client
 atlassian-python-api

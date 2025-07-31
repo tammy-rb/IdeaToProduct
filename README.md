@@ -2,11 +2,11 @@
 
 A powerful AI-driven project that transforms ideas into production-ready applications using CrewAI agents and Model Context Protocol (MCP) integrations.
 
-## 🚀 Overview
+## Overview
 
 IdeaToProd is an intelligent system that leverages multiple AI agents to design, develop, and deploy software projects. The system integrates with various services through MCP servers including GitHub, Jira, and Google Drive.
 
-## 🏗️ Architecture
+## Architecture
 
 The project consists of several specialized AI agents:
 
@@ -14,7 +14,7 @@ The project consists of several specialized AI agents:
 - **Detailed Design Agent** (`Detailed_Design_agent.py`) - Develops detailed technical specifications
 - **Coder Agent** (`Coder_agent.py`) - Implements the actual code based on designs
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 IdeaToProd/
@@ -38,7 +38,7 @@ IdeaToProd/
 └── next_steps.txt             # Development roadmap
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -61,7 +61,7 @@ IdeaToProd/
    - Configure GitHub Personal Access Token
    - Set up Jira API token
 
-## 🔧 Configuration
+## Configuration
 
 ### MCP Server Setup
 
@@ -88,7 +88,7 @@ JIRA_API_TOKEN=your_jira_token
 GOOGLE_APPLICATION_CREDENTIALS=path_to_credentials_file
 ```
 
-## 🚦 Usage
+## Usage
 
 1. **Run the main application:**
    ```bash
@@ -105,7 +105,7 @@ GOOGLE_APPLICATION_CREDENTIALS=path_to_credentials_file
    python setup_gdrive_auth.py
    ```
 
-## 🔒 Security
+## Security
 
 **Important:** This project handles sensitive credentials. Make sure to:
 
@@ -114,7 +114,7 @@ GOOGLE_APPLICATION_CREDENTIALS=path_to_credentials_file
 - Keep the `credentials/` folder secure
 - Regularly rotate your API tokens
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -122,7 +122,7 @@ GOOGLE_APPLICATION_CREDENTIALS=path_to_credentials_file
 4. Ensure no sensitive data is committed
 5. Submit a pull request
 
-## 📋 Requirements
+## Requirements
 
 See `requirements.txt` for detailed Python dependencies. Key frameworks include:
 
@@ -130,24 +130,24 @@ See `requirements.txt` for detailed Python dependencies. Key frameworks include:
 - Flask for web interface
 - Various MCP client libraries
 
-## 🛣️ Roadmap
+## Roadmap
 
 Check `next_steps.txt` for the current development roadmap and planned features.
 
-## ⚠️ Important Notes
+## Important Notes
 
 - **Never commit sensitive files** - The `.gitignore` is configured to protect credentials
 - **Use templates** - Always copy from `.template` files and fill in your actual values
 - **Security first** - Regularly review and rotate API tokens
 
-## 📝 License
+## License
 
 [Add your license information here]
 
-## 🆘 Support
+## Support
 
 [Add support information, issues link, or contact details]
 
 ---
 
-**Made with ❤️ using CrewAI and MCP**
+**Made with using CrewAI and MCP**

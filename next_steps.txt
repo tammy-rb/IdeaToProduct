@@ -23,4 +23,10 @@ after it:
 add the tests
 add deployment.
 
+1. make custom mcp for google drive.
+2. run the first agent.
+3. connect to jira mcp
+4. run the second agent.
+5. reorganize and refctor the code.
+
 

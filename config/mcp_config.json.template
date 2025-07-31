@@ -12,13 +12,6 @@
         "DEBUG": "true",
         "LOG_FILE_PATH": ""
       }
-    },
-    "gdrive": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-gdrive"],
-      "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "PATH_TO_YOUR_CREDENTIALS_FILE"
-      }
     }
   }
 }
